@@ -1,0 +1,190 @@
+ *{
+    list-style: none;
+ }
+
+
+body{
+    font-family: 'Instrument Serif', serif;
+}
+
+.ul-menu{
+ background-color: #333;
+     color: white;
+
+      overflow: hidden;
+      text-align: center;
+}
+
+.li-menu{
+    float: left;
+}
+
+.a-menu{
+text-decoration: none;
+color: white;
+font-size: 20px;
+display: block;
+padding: 17px;
+}
+
+.li-menu a:hover{
+    background-color: black;
+}
+
+.title-menu{
+    font-size: 40px;
+    display: inline;
+}
+ 
+.column{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.light {
+    font-weight: 600;
+}
+
+.socials img {
+    width: 25px;
+    padding: 5px;
+}
+
+.left{
+width: 20%;
+float: left;
+}
+
+.right{
+    width: 80%;
+    float: left;
+    }
+
+    .row {
+        padding: 10px;
+    }
+
+    .row::after{
+        display: table;
+        clear: both;
+        content: "";
+    }
+
+    .main-bar{
+        background-color: silver;
+        display: block;
+        height: 25px;
+    }
+    .main-bar span{
+        background-color: #333;
+        height: 25px;
+        display: block;
+        color: white;
+    }
+
+    .main-bar, .main-bar span {
+        border-radius: 50px;
+    }
+
+    .java{
+        width: 90%;
+        animation: Java 5s ease-in-out;
+    }
+
+    .Android{
+        width: 70%;
+        animation: Android 5s ease-in-out; 
+    }
+
+    .Javascript{
+        width: 60%;
+        animation: Javascript 5s ease-in-out;
+    }
+
+    .HTML{
+        width: 85%;
+        animation: HTML 5s ease-in-out;
+    }
+
+    .API_Testing{
+        width: 40%;
+        animation: APT_Testing 5s ease-in-out;
+    }
+
+    .Linux{
+        width: 50%;
+        animation: Linux 5s ease-in-out;
+    }
+    .React{
+        width: 60%;
+        animation: React 5s ease-in-out;
+    }
+
+    @keyframes Java {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 90%;
+        }
+    }
+
+    @keyframes Android {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 70%;
+        }
+    }
+    @keyframes Javascript {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 60%;
+        }
+    }
+
+    @keyframes HTML {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 85%;
+        }
+    }
+
+    @keyframes APT_Testing {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 40%;
+        }
+    }
+
+    @keyframes Linux {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 50%;
+        }
+    }
+
+    @keyframes React {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 60%;
+        }
+    }
