@@ -188,3 +188,30 @@ float: left;
             width: 60%;
         }
     }
+    
+    .footer{
+        width: 100%;
+        padding: 8px;
+        background-color: #333;
+        color: white;
+        text-align: center;
+    }
+
+
+.projects{
+    width: 300px;
+    float: left;
+}
+
+.projects img {
+width: 250px;
+height:125px
+ ;
+}
+
+@media screen and (max-width:800px) {
+    .column{
+        width: 100%;
+    }
+}
+
